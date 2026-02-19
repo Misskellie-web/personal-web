@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Website Page</title>
+    <!--Link to CSS -->
+    <style>
+      body {
+             background-color: #f0f8ff;
+             text-align: centre;
+           }
+
+        h1 {
+            color: #2a4d69;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>KELSEY NDUTA</h1>
+    <h2>Tech Enthusiast</h2>
+    <h3>Customer Service: Friendly, helpful, and attentive to
+customer needs, ensuring a pleasant shopping
+experience.
+Communication: Clear and effective in interacting with
+customers, team members, and management.
+Sales Techniques: Skilled in upselling, product
+recommendations, and handling customer queries to
+maximize sales.
+Inventory Management: Knowledgeable in stock
+organization, inventory tracking, and ensuring product
+displays are attractive and organized.
+Proficient in handling transactions, processing payments,
+and managing POS systems.
+Problem-Solving: Quick to resolve customer issues and
+handle complaints with professionalism and composure.
+Team Collaboration: Cooperative team player who
+supports colleagues and contributes to a positive work environment</h3>
+
+    <p>Click the button to view LinkedIn:</p>
+    <button id="portfolio">LinkedIn</button>
+
+    <!-- Link to JS -->
+    <script>
+        // Select the button by its ID
+        const button = document.getElementById("greetButton");
+
+        // Add a click event
+        button.onclick = function() {
+            alert("Hello Nduta! Welcome to your webpage!");
+            document.body.style.backgroundColor = "#ffe4e1"; // Change background
+        }
+    </script>
+</body>
+</html>
+
+
